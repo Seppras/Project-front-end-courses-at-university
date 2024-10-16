@@ -1,0 +1,92 @@
+.contact{
+    position: absolute;
+width: 1297px;
+height: 715px;
+margin-top: -500px;
+margin-left: 50px;
+
+}
+.collapsible {
+  background-color: #87CEEB;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+
+.collapsible > .bgdouble{
+    height: 3000px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.paper1 {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  margin-top: 120px;
+}
+.paper2 {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+    margin-top: 160px;
+  }
+  .paper3 {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+    margin-top: 160px;
+  }
+  .paper4 {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+    margin-top: 160px;
+  }
+  .contacttext{
+    position: absolute;
+width: 418px;
+height: 90px;
+margin-top: -30px;
+margin-left: -140px;
+
+font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 78px;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}

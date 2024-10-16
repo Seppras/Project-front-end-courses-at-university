@@ -1,0 +1,328 @@
+
+/*Fonts Start Here*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+/*Fonts End Here*/
+/*Body Starts Here*/
+
+
+
+.openingline{
+    display: block;
+	font-weight: 100;
+	font-family: montserrat;
+	color: white;
+  font-size: 35codpx;
+  border-bottom: 8px white solid;
+  width: 150px;
+  margin-left: 580px;
+  margin-top: -500px;
+  padding-bottom: 5px;
+  z-index: 1;
+}
+/*Body Ends Here*/
+/*Text Type Starts Here*/
+input[type=text]::placeholder {
+	user-select:none;
+	color: black;
+	font-family: montserrat;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input[type=email]:focus{
+	box-shadow: 10px 10px;
+  background-color: #ffffff00;
+  border: 2px black solid;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+input[type=text] {
+  cursor: pointer;
+  font-size: 20px;
+	padding: 4px;
+/* 	text-align: center; */
+}
+input[type=text]:focus {
+	text-align: center;
+  transition: 1s;
+	box-shadow: 10px 10px;
+	background-color: #ffffff00;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+/*Text Type Ends Here*/
+/*Email Type Starts Here*/
+input[type=email] {
+  cursor: pointer;
+	padding: 4px;
+/* 	text-align: center; */
+}
+
+input[type=email]::placeholder {
+	color: black;
+ 	user-select:none;
+	font-family: montserrat;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*Email Type Ends Here*/
+/*Date Type Starts Here*/
+input[type=date]:focus {
+	text-align: center;
+	box-shadow: 10px 10px;
+	transition: 1s;
+}
+input[type=date] {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-family: montserrat;
+	text-transform: uppercase;
+	font-size: 15px;
+	user-select:none;
+	cursor: pointer;
+}
+[type="date"]::-webkit-inner-spin-button {
+	display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+	/* display: none;
+	*/
+	color:gray;
+}
+[type="date"]::-webkit-calendar-picker-indicator:hover {
+	/* display: none;
+	*/
+	color:gray;
+	cursor: pointer;
+	background-color:#ffffff00;
+}
+/*Date Type Ends Here*/
+/*Input Starts Here*/
+input:focus::-webkit-input-placeholder {
+	opacity: 0;
+}
+
+input {
+	font-family: montserrat;
+  border: none;
+	background-color: #ffffff00;
+	font-weight: 100;
+}
+
+input:focus{
+  background-color: #ffffff00;
+}
+
+#state{
+  background-color: #ffffff00;
+  border: none;
+  font-size: 20px;
+}
+
+#state:focus{
+  transition: 1s;
+	box-shadow: 10px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/*Input Ends Here*/
+/*First Part Starts Here*/
+.personalInfo {
+  width: 700px;
+	background-color: #ffffff00;
+	border-radius: 10px;
+	border: black solid 2px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+s
+/*Scroll Bar Ends Here*/
+
+button{
+	user-select:none;
+}
+/* Fieldset's Start Here */
+#personal {
+	user-select: none;
+	padding: 5px;
+  color: white;
+	background-color: #ffffff00;
+	letter-spacing: 1.5px;
+	border-radius: 15px;
+  border: 2px solid black;
+	font-family: Arial;
+	font-weight: 100;
+}
+#payment {
+	user-select: none;
+	padding: 5px;
+  color: white;
+	background-color: #ffffff00;
+	letter-spacing: 1.5px;
+  border: 2px solid black;
+	border-radius: 15px;
+	font-family: arial;
+	font-weight: 100;
+}
+#aboutme1{
+	user-select: none;
+	padding: 10px;
+	background-color: lightgray;
+	letter-spacing: 1.5px;
+	border-radius: 15px;
+	font-family: Arial;
+	font-weight: bold;
+}
+/* Fieldset's End Here */
+
+/*Name Start*/
+.name{
+  width: 300px;
+  height: 40px;
+}
+#name{
+  margin-left:20px;
+}
+/*Name End*/
+.contact{
+  width: 300px;
+  height: 40px;
+}
+#contact{
+  margin-left: 20px;
+}
+.location{
+  height: 40px;
+  width: 300px;
+}
+#location{
+  margin-left: 20px;
+}
+
+
+.states{
+  color: black;
+  font-weight: bold;
+  font-family: montserrat;
+  width: 312px;
+  height: 53px;
+  cursor: pointer;
+  margin-left: 20px;
+  border: 2px black solid;
+  background-color: lightgray;
+}
+.card{
+  height: 40px;
+  width: 300px;
+}
+#card{
+  margin-left: 20px;
+}
+
+.mypage{
+  margin-top: 5px;
+	background-color:#ffffff00;
+	color:black;
+	font-family:arial;
+	font-weight:light;
+	border:black 2px solid;
+	width:200px;
+	height:40px;
+  font-size: 20px;
+  transition: ease-in-out .5s;
+}
+.mypage:hover{
+  box-shadow: 10px 10px green;
+	cursor:pointer;
+	color: black;
+	border: green solid 2px;
+}
+.mypage:hover span{
+	display: none;
+}
+.mypage:hover:before{
+	content:"Awesome!";
+}
+.mypage:active{
+	color:green;
+	border: green solid 2px;
+}
+
+.reset{
+  margin-top: 5px;
+
+	background-color:#ffffff00;
+	color:black;
+	font-family:arial;
+	font-weight:light;
+	border:black 2px solid;
+	width: 200px;
+	height: 40px;
+  font-size: 20px;
+  transition: ease-in-out .5s;
+}
+.reset:hover{
+  box-shadow: 10px 10px red;
+	cursor:pointer;
+	color: black;
+	border: red solid 2px;
+}
+.reset:hover span{
+	display: none;
+}
+.reset:hover:before{
+	content:"Are You Sure?";
+}
+.reset:active{
+	color:green;
+	border: green solid 2px;
+}
+.reset:active span{
+  display: none;
+}
+.reset:active:before{
+  content: "Okay";
+}
+.submit{
+    margin-left: 360px;
+	background-color:#ffffff00;
+	color:black;
+	font-family:arial;
+	font-weight:light;
+	border:black 2px solid;
+	width: 200px;
+	height: 40px;
+  font-size: 20px;
+  transition: .5s ease-in-out;
+}
+.submit:hover{
+  box-shadow: 10px 10px green;
+	cursor:pointer;
+	color: black;
+	border: green solid 2px;
+}
+.submit:hover span{
+	display: none;
+}
+.submit:hover:before{
+	content:"Thank You!";
+}
+.submit:active{
+	color:green;
+	border: green solid 2px;
+}
+.provider:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+  background-color: #ffffff00;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 12px;
+}
+.provider{
+  transition: ease-in-out .5s;
+}

@@ -1,0 +1,590 @@
+/* Hamburger*/
+
+#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+  width: 20px;
+  height: 6px;
+  position: absolute;
+  margin: -10px 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 35px;
+  background: black;
+  border-radius: 6px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 14px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 28px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.main-nav {
+  background-color: transparent;
+  padding: 20px;
+}
+
+.main-menu {
+  position: absolute;
+  display: none;
+  top: 50px;
+  left: -240px;
+  background-color: wheat;
+  width: 200px;
+  margin: 0;
+  height: 850%;
+  padding-top: 20px;
+  list-style-type: none;
+  transition: all .4s;
+  z-index: 3;
+}
+.main-menu.open {
+  left:0;
+  display: block;
+}
+
+.main-menu .main-menu-item {
+  padding: 5px 0;
+}
+
+.textcm{
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 10px;
+
+  font-family: 'Halant';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 41px;
+text-align: center;
+
+color: #000000;
+}
+
+.main-menu .main-menu-item a{
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 10px;
+   text-decoration: none;
+  transition: all .3s;
+
+  font-family: 'Halant';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 41px;
+text-align: center;
+
+color: #000000;
+}
+
+.main-menu .main-menu-item a:hover {
+  text-decoration: underline;
+}
+
+
+.photo {
+  width: 120px;
+  height: 120px;
+  margin: -65px 5px 60px 110px;
+  position: relative;
+}
+
+/* Navbar container */
+h3{
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 24px;
+
+color: #302A85;
+}
+
+.pfont{
+  padding: 3px;
+  margin-top: -8px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  margin: -160px 10px 30px 260px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px 20px 14px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-left: -15px;
+  cursor: pointer;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  margin-top: 14px;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 70%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+  margin-left: 225px;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  background-color: white;
+  height: 200x;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: blue;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color:transparent;
+  text-decoration: underline;
+  
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fa-caret-down {
+  width: 0; 
+  height: 0; 
+  
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  
+  border-top: 10px solid #302A85;
+
+  margin-left: 120px;
+  margin-top: -25px;
+}
+
+
+/* The dropdown container */
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+  margin-left: -2px;
+}
+
+
+
+/* Dropdown button */
+.dropdown1 .dropbtn1 {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin-left: -20px;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content1 a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.fa-caret-down1 {
+  width: 0; 
+  height: 0; 
+  
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  
+  border-top: 10px solid #302A85;
+
+  margin-left: 115px;
+  margin-top: -25px;
+}
+
+/* The dropdown container */
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+  margin-left: 5px;
+  z-index: 3;
+}
+
+
+
+/* Dropdown button */
+.dropdown2 .dropbtn2 {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin-left: -20px;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.fa-caret-down2 {
+  width: 0; 
+  height: 0; 
+  
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  
+  border-top: 10px solid black;
+
+  margin-left: 120px;
+  margin-top: -25px;
+}
+
+/* The dropdown container */
+.dropdown3 {
+  float: left;
+  overflow: hidden;
+  margin-left: 4px;
+}
+
+/* Dropdown button */
+.dropdown3 .dropbtn3 {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin-left: -20px;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+/* Links inside the dropdown */
+.dropdown-content3 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content3 a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+.fa-caret-down3 {
+  width: 0; 
+  height: 0; 
+  
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  
+  border-top: 10px solid black;
+
+  margin-left: 120px;
+  margin-top: -25px;
+}
+
+
+#myUL {
+  /* Remove default list styling */
+  position: relative;
+  left: -20px;
+  top: 5px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  z-index: 10;
+ 
+}
+
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+
+
+.textsearch{
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 75px;
+
+
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.textscore{
+  position: absolute;
+  margin-top: -65px;
+  margin-left: 75px;
+
+  text-align: left;
+}
+
+.textstatus{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 75px;
+}
+
+.d7:after {content:""; clear:both; display:table}
+.d7 form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+  margin-top: -125px;
+}
+.d7 input {
+  width: 200px;
+  height: 32px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid transparent;
+  background: #fff;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+  margin-top:8px;
+  margin-right: 28px;
+}
+.d7 input:focus {
+  width: 300px;
+}
+.d7 button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 6px;
+  right: 70px;
+}
+.d7 button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: transparent;
+}
+
+
+.swiper {
+  width: 340px;
+  height: 195px;
+  left: 845px;
+  top: 230px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

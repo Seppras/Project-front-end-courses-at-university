@@ -1,0 +1,83 @@
+.about{
+    position: absolute;
+width: 1184px;
+height: 610px;
+margin-top: -420px;
+margin-left: 110px;
+
+}
+.aboutText{
+    position: absolute;
+width: 418px;
+height: 90px;
+left: 380px;
+top: 70px;
+
+font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 78px;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+.aboutkotak{
+    position: absolute;
+width: 415px;
+height: 305px;
+left: 20px;
+top: 46px;
+
+background: #FFFFFF;
+}
+.aboutkotak2{
+    position: absolute;
+width: 415px;
+height: 305px;
+left: 740px;
+top: 46px;
+
+background: #FFFFFF;
+}
+
+.aboutkotak3{
+    position: absolute;
+width: 415px;
+height: 305px;
+left: 380px;
+top: 420px;
+
+background: #FFFFFF;
+}
+
+.aboutjdl{
+    position: absolute;
+    width: 410px;
+    height: 38px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.aboutdsk{
+    position: absolute;
+    width: 410px;
+    height: 38px;
+    margin-top: 60px;
+    margin-left: 10px;
+    
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 35px;
+}

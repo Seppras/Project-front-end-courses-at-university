@@ -1,0 +1,50 @@
+table,td,th {
+    border: 1px solid;
+    padding: 35px 100px 30px 100px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+td {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+.judul {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    
+    color: #000000;
+}
+.Seasonmore{
+    position: absolute;
+width: 1352px;
+height: 970px;
+left: 20px;
+top: -500px;
+}
+.Seasonmore a{
+    text-decoration: none;
+}

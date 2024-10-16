@@ -1,0 +1,75 @@
+.Partner{
+    cursor: default;
+}
+.Partner{
+    position: relative;
+    width: 1286px;
+    height: 553px;
+    margin-top: -500px;
+    margin-left: -140px;
+    z-index: 2;
+}
+.PartnerText{
+    position: absolute;
+width: 418px;
+height: 90px;
+margin-top: -100px;
+margin-left: 450px;
+
+font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 78px;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.prtn{
+    display: flex;
+    flex-direction: column;
+width: 1150px;
+height: 565px;
+margin-top: 80px;
+flex-wrap: wrap ;
+justify-content: space-between 0.2;
+}
+
+.ktkstd{
+    display: block;
+    position: relative;
+    width: 251px;
+    height: 140px;
+margin-top: 60px;
+left:120px;
+
+background: #FFFFFF;
+}
+.ktkdlm{
+    position: absolute;
+width: 82px;
+height: 72px;
+margin-left: 20px;
+margin-top: 30px;
+
+background: #000000;
+}
+.ktktext{
+    position: absolute;
+width: 197px;
+height: 38px;
+margin-left: 80px;
+margin-top: 50px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 33px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+}

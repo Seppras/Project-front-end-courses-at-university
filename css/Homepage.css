@@ -1,0 +1,283 @@
+html{
+  overflow: visible;
+overflow-x: hidden;
+  
+}
+
+body{
+  margin: 0;
+  cursor: pointer;
+}
+
+#FlixChart{
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: left;
+  width: 1020px;
+}
+
+.Wrapper{
+  position: absolute;
+  width: 100%;
+  height: 2630px;
+  background-color: transparent;
+
+  z-index: -5;
+}
+
+header{
+position: relative;
+display: flex;
+width: 1000%;
+height: 625px;
+margin-left: -2200px;
+
+background: transparent;
+cursor: default;
+}
+
+.bg{
+  position: absolute;
+width: 2350px;
+height: 1530px;
+top: -345px;
+  margin-left: 1920px;
+
+}
+
+.bgdouble{
+  position: absolute;
+  width: 1400px;
+  height: 941px;
+  left: 2000px;
+  top: 60px;
+}
+
+.bgd{
+  position: absolute;
+  width: 642px;
+  height: 515px;
+  top: 80px;
+  margin-left: 2740px;
+  z-index: 0;
+}
+
+.bgp{
+  position: absolute;
+width: 250px;
+height: 310px;
+top: 270px;
+margin-left: 3150px;
+z-index:3;
+}
+
+.judulbg{
+  position: absolute;
+width: 932px;
+height: 93px;
+left: -70px;
+top: 20px;
+z-index: 0;
+
+font-family: 'Akaya Kanadaka', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 93px;
+text-align: center;
+text-transform: capitalize;
+color: #302A85;
+}
+
+.textbg{
+  position: absolute;
+width: 506px;
+height: 144px;
+left: 150px;
+top: 165px;
+
+font-family: 'Akaya Kanadaka';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 48px;
+text-align: center;
+text-transform: capitalize;
+}
+
+.ptr{
+  position: absolute;
+width: 506px;
+height: 43px;
+left: -90px;
+top: 390px;
+
+font-family: 'Akaya Kanadaka';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+}
+
+.prtph{
+  position: absolute;
+width: 50px;
+height: 50px;
+left: 70px;
+top: 505px;
+}
+
+.prtph1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 130px;
+  top: 505px;
+}
+
+.prtph2{
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 185px;
+  top: 497px;
+}
+
+.prtph3{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 255px;
+  top: 505px;
+}
+
+.prtph4{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 315px;
+  top: 503px;
+}
+
+.kotakcr{
+  position: absolute;
+width: 340px;
+height: 239px;
+left: 880px;
+top: 200px;
+
+}
+
+.menu{
+  position: absolute;
+  width: 14%;
+  height: 50px;
+  margin-left: 1999px;
+
+  background: transparent;
+}
+
+main{
+  position: relative;
+  background: black;
+}
+
+contenct{
+  position: absolute;
+  width: 136%;
+  height: 1807px;
+margin-left: -195px;
+margin-top: -1px;
+
+  z-index: 1;
+  background: transparent;
+  cursor: auto;
+}
+
+content{
+  position: absolute;
+  width: 136%;
+  height: 1000px;
+margin-left: -195px;
+margin-top: -1px;
+
+  z-index: 1;
+  background: transparent;
+  cursor: auto;
+}
+
+
+
+.NewsKotak{
+  position: absolute;
+  width: 1395px;
+  height: 514px;
+  left: 0px;
+  top: 0px;
+  
+  background: #78D0F8;
+}
+
+.upsrpi{
+  position: absolute;
+ width: 1395px;
+ height: 720px;
+ left: 0px;
+ top: 514px;
+ 
+ background: #5193DC;
+ }
+
+ .trailer{
+  position: absolute;
+width: 1395px;
+height: 573px;
+left: 0px;
+top: 1234px;
+
+background: #49A9EB;
+ }
+
+p6{
+  position: absolute;
+width: 414px;
+height: 43px;
+text-align: center;
+margin-left: 500px;
+top: 10px;
+
+font-family: 'Akaya Kanadaka';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+
+button{
+  font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;padding:0;vertical-align:baseline;
+}
+
+footer{
+  position: absolute;
+  width: 137%;
+  height: 205px;
+  left: -195px;
+  top: 2430px;
+  z-index: 2;
+  cursor: auto;
+
+  background: white;
+}

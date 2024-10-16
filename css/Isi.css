@@ -1,0 +1,857 @@
+.kotak1{
+    position: absolute;
+width: 292px;
+height: 172px;
+left: 60px;
+top: 40px;
+
+background: #fff;
+}
+
+.Top1{
+    position: absolute;
+width: 176.38px;
+height: 22.87px;
+left: -75px;
+top: -52px;
+
+font-family: 'Inika', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+
+color: white;
+}
+
+.Jdl1{
+    position: absolute;
+width: 250px;
+height: 30px;
+left: 360px;
+top: 30px;
+
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+}
+
+.Info1{
+    position: absolute;
+width: 292px;
+height: 131px;
+left: 360px;
+top: 80px;
+
+font-family: 'Akaya Kanadaka';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+
+.kotak2{
+    position: absolute;
+width: 292px;
+height: 172px;
+left: 380px;
+top: 280px;
+
+background: #FFFFFF;
+}
+
+.Top2{
+    position: absolute;
+width: 176.38px;
+height: 22.87px;
+left: -75px;
+top: -52px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+
+color: white;
+}
+
+.Jdl2{
+    position: absolute;
+width: 250px;
+height: 30px;
+left: 700px;
+top: 280px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 680;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+}
+
+.Info2{
+    position: absolute;
+width: 292px;
+height: 131px;
+left: 690px;
+top: 330px;
+
+font-family: 'Akaya Kanadaka';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+
+.kotak3{
+    position: absolute;
+width: 292px;
+height: 172px;
+left: 756px;
+top: 40px;
+
+background: #FFFFFF;
+}
+
+.Top3{
+    position: absolute;
+width: 176.38px;
+height: 22.87px;
+left: -75px;
+top: -52px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+
+color: white;
+}
+
+.Jdl3{
+    position: absolute;
+width: 161px;
+height: 30px;
+left: 1080px;
+top: 30px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+}
+
+.Info3{
+    position: absolute;
+width: 292px;
+height: 131px;
+left: 1050px;
+top: 80px;
+
+font-family: 'Akaya Kanadaka';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+
+.More{
+    position: absolute;
+width: 142px;
+height: 44px;
+left: 1264px;
+top: -1px;
+z-index: 2;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+text-align: center;
+}
+
+.Judulktk{
+    position: absolute;
+width: 354px;
+height: 500px;
+left: 1040px;
+top: 80px;
+
+background: transparent;
+}
+
+.ktkimg {
+    width: 354px;
+    height: 500px;
+margin-top: 65px;
+margin-left: 45px;
+}
+
+.ktkjdl{
+    position: absolute;
+width: 200px;
+height: 30px;
+left: 40px;
+top: 285px;
+
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+}
+
+.lineps{
+    position: absolute;
+width: 995px;
+height: 0px;
+left: 340px;
+top: 355px;
+
+border: solid 4px black;
+}
+
+.Sprng{
+    position: absolute;
+width: 1400px;
+height: 214px;
+left: -5px;
+top: 70px;
+background: transparent;
+}
+
+.sprktk1{
+    position: absolute;
+width: 169px;
+height: 214px;
+left: 401px;
+top: 4px;
+
+background: #FFFFFF;
+}
+
+.jdlsprktk1{
+    position: absolute;
+width: 169px;
+height: 30px;
+left: 0px;
+top: 160px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 36px;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+color: white;
+}
+
+
+.sprktk2{
+    position: absolute;
+width: 169px;
+height: 214px;
+left: 580px;
+top: 4px;
+
+background: #FFFFFF;
+}
+.jdlsprktk2{
+    position: absolute;
+width: 169px;
+height: 30px;
+left: 0px;
+top: 160px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 36px;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+color: white;
+}
+.sprktk3{
+    position: absolute;
+width: 169px;
+height: 214px;
+left: 760px;
+top: 4px;
+
+background: #FFFFFF;
+}
+.jdlsprktk3{
+    position: absolute;
+width: 169px;
+height: 30px;
+left: 0px;
+top: 160px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 36px;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+color: white;
+}
+.sprktk4{
+    position: absolute;
+    width: 169px;
+    height: 214px;
+    left: 940px;
+    top: 4px;
+    
+    background: #FFFFFF;
+}
+.jdlsprktk4{
+    position: absolute;
+width: 169px;
+height: 30px;
+left: 0px;
+top: 160px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 36px;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+color: white;
+}
+.sprktk5{
+    position: absolute;
+    width: 169px;
+    height: 214px;
+    left: 1120px;
+    top: 4px;
+    
+    background: #FFFFFF;
+}
+.jdlsprktk5{
+    position: absolute;
+    width: 169px;
+    height: 30px;
+    left: 0px;
+    top: 160px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    color: white;
+}
+
+.updt{
+    position: absolute;
+width: 1400px;
+height: 224px;
+left: -5px;
+top: 425px;
+background: transparent;
+}
+
+.updktk1{
+    position: absolute;
+width: 169px;
+height: 224px;
+left: 401px;
+top: 4px;
+
+background: #FFFFFF;
+}
+.jdlupdktt1{
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    left: 0px;
+    top: 160px;
+
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    color: white;
+}
+
+.epsupdktt1{
+    position: absolute;
+    width: 169px;
+    height: 35px;
+    left: 0px;
+    top: 180px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+}
+
+.updktk2{
+    position: absolute;
+width: 169px;
+height: 224px;
+left: 580px;
+top: 4px;
+
+background: #FFFFFF;
+}
+
+.jdlupdktt2{
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    left: 0px;
+    top: 160px;
+
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    color: white;
+}
+
+.epsupdktt2{
+    position: absolute;
+    width: 169px;
+    height: 35px;
+    left: 0px;
+    top: 180px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+}
+
+.updktk3{
+    position: absolute;
+    width: 169px;
+    height: 224px;
+    left: 760px;
+    top: 4px;
+    
+    background: #FFFFFF;
+}
+
+.jdlupdktt3{
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    left: 0px;
+    top: 160px;
+
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    color: white;
+}
+.epsupdktt3{
+    position: absolute;
+    width: 169px;
+    height: 35px;
+    left: 0px;
+    top: 180px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+}
+
+.updktk4{
+    position: absolute;
+    width: 169px;
+    height: 224px;
+    left: 940px;
+    top: 4px;
+    
+    background: #FFFFFF;
+}
+
+.jdlupdktt4{
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    left: 0px;
+    top: 160px;
+
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    color: white;
+}
+
+.epsupdktt4{
+    position: absolute;
+    width: 169px;
+    height: 35px;
+    left: 0px;
+    top: 180px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+}
+
+.updktk5{
+    position: absolute;
+    width: 169px;
+    height: 224px;
+    left: 1120px;
+    top: 4px;
+    
+    background: #FFFFFF;
+}
+
+.jdlupdktt5{
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    left: 0px;
+    top: 160px;
+
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    color: white;
+}
+
+.epsupdktt5{
+    position: absolute;
+    width: 169px;
+    height: 35px;
+    left: 0px;
+    top: 180px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+}
+
+.sprngimg{
+    position: absolute;
+width: 354px;
+height: 500px;
+left: 10px;
+top: 100px;
+}
+
+.jdlsprng{
+    position: absolute;
+width: 695px;
+height: 30px;
+left: -150px;
+top: -40px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+
+color: #000000;
+}
+
+.linksprng{
+    position: absolute;
+width: 142px;
+height: 44px;
+left: 120px;
+top: 50px;
+
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+text-align: center;
+}
+
+.jdlupdt{
+    position: absolute;
+width: 695px;
+height: 30px;
+left: -150px;
+top: 45px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+
+color: #000000;
+}
+
+.linkupdt{
+    position: absolute;
+width: 142px;
+height: 44px;
+left: 120px;
+top: 135px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+text-align: center;
+}
+
+.trl1{
+    position: absolute;
+    width: 307px;
+    height: 179px;
+    left: 91px;
+    top: 40px;
+    
+    background:transparent;
+}
+
+.codegena{
+    position:relative;
+    width:100%;
+    height:0;
+    padding-bottom:56.27198%;}
+.codegena iframe{position:absolute;
+    top: 2px;;
+    left:0;
+    width:100%;
+    height:100%;}
+
+
+.jdltrl1{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: 15px;
+    top: 165px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.trl2{
+    position: absolute;
+    width: 307px;
+    height: 179px;
+    left: 91px;
+    top: 320px;
+    
+    background: transparent;
+}
+
+.jdltrl2{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: 15px;
+    top: 165px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.trl3{
+    position: absolute;
+    width: 307px;
+    height: 184px;
+    left: 1010px;
+    top: 40px;
+    
+    background: transparent;
+}
+
+.jdltrl3{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: 15px;
+    top: 165px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.trl4{
+    position: absolute;
+    width: 307px;
+    height: 179px;
+    left: 1010px;
+    top: 320px;
+    
+    background: transparent;
+}
+
+.jdltrl4{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: 15px;
+    top: 165px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.trlimg{
+    position: absolute;
+width: 394px;
+height: 557px;
+left: 530px;
+top: 0px;
+}
+
+.jdltrl{
+    position: absolute;
+width: 695px;
+height: 30px;
+left: 380px;
+top: 25px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+
+color: #000000;
+}
+
+.visit{
+    position: absolute;
+width: 142px;
+height: 44px;
+left: 660px;
+top: 450px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 34px;
+text-align: center;
+}
